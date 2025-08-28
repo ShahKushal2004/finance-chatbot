@@ -114,7 +114,7 @@ streamlit run user_interface.py
 
 ## Customization
 
-- **LLM Integration:** Update `app/services/llm.py` and `.env` for your preferred LLM provider (OpenAI, etc).
+- **LLM Integration:** Update `app/services/llm.py` and `.env` for your preferred LLM provider .
 - **Data Storage:** By default, data is likely stored in-memory or in files. For production, integrate with a database in `app/services/data_store.py`.
 
 ---
@@ -136,4 +136,5 @@ MIT License. See [LICENSE](LICENSE) for details.
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Streamlit](https://streamlit.io/)
 - [Plotly](https://plotly.com/python/)
+
 -
