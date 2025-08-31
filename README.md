@@ -62,6 +62,8 @@ python -m venv venv
 venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 pip install streamlit plotly  # For frontend
+pip install fastapi uvicorn   # For backend
+pip install python-multipart
 ```
 
 ### 3. Configure Environment
@@ -138,3 +140,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 - [Plotly](https://plotly.com/python/)
 
 -
+
