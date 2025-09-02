@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Use your Gemini API key
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCX84FxsGcxZrm5LkyXr6TY7Qyio8vnbBw")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "Your Key")
 GEMINI_MODEL = "gemini-2.0-flash-lite"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
@@ -58,3 +58,4 @@ def ask_llm(prompt: str, max_output_tokens: int = 256, temperature: float = 0.2)
         return f"LLM error {resp.status_code}: {resp.text}"
 
     return "LLM is busy/loading. Please try again."
+
